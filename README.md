@@ -180,6 +180,8 @@ Validation checks are incorporated throughout the pipeline to improve reliabilit
 
 The platform is designed for automated execution using Databricks Jobs.
 
+![Job](docs/images/Job.png)
+
 ```text
 Source Data Generation
           │
