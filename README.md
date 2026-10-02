@@ -180,7 +180,7 @@ Validation checks are incorporated throughout the pipeline to improve reliabilit
 
 The platform is designed for automated execution using Databricks Jobs.
 
-![Job](docs/images/Job.png)
+![Job](docs/images/Job.PNG)
 
 ```text
 Source Data Generation
@@ -203,7 +203,7 @@ Dashboard Refresh
 
 ## Dashboards
 
-![Dashboard](docs/images/Dashboard.png)
+![Dashboard](docs/images/Dashboard.PNG)
 
 * **Executive KPI Dashboard:** Provides an operational overview of active sites, active patients, total inventory, total shipments, delayed shipments, and stockout risk sites.
 * **Stockout Risk Dashboard:** Answers which sites are at risk of running out of inventory.
