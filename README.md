@@ -143,8 +143,10 @@ Implemented for clinical trial sites to preserve historical changes.
 * Enables both current-state and historical reporting.
 
 ### Change Data Capture (CDC)
+
 Shipment events simulate real-world logistics workflows:
-$$\text{CREATED} \longrightarrow \text{DISPATCHED} \longrightarrow \text{IN\_TRANSIT} \longrightarrow \text{DELIVERED}$$
+
+CREATED → DISPATCHED → IN_TRANSIT → DELIVERED
 
 Historical events are retained while a separate current-state table provides the latest shipment status.
 
