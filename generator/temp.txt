@@ -1,0 +1,52 @@
+{
+  "run_number": 0,
+  "current_date": "2026-09-29",
+
+  "studies": [
+    {
+      "study_id": "STUDY001",
+      "study_name": "Oncology Trial"
+    },
+    {
+      "study_id": "STUDY002",
+      "study_name": "Immunology Trial"
+    },
+    {
+      "study_id": "STUDY003",
+      "study_name": "Rare Disease Trial"
+    }
+  ],
+
+  "depots": [
+    {
+      "depot_id": "DEPOT001",
+      "depot_name": "Mumbai Depot",
+      "country_code": "IN"
+    },
+    {
+      "depot_id": "DEPOT002",
+      "depot_name": "Singapore Depot",
+      "country_code": "SG"
+    },
+    {
+      "depot_id": "DEPOT003",
+      "depot_name": "Frankfurt Depot",
+      "country_code": "DE"
+    }
+  ],
+
+  "sites": [],
+
+  "patients": [],
+
+  "shipments": [],
+
+  "inventory": {},
+
+  "counters": {
+    "site": 0,
+    "patient": 0,
+    "shipment": 0,
+    "dispense": 0
+  }
+}

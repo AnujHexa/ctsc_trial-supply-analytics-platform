@@ -1,0 +1,317 @@
+{
+  "run_number": 4,
+  "current_date": "2026-10-03",
+  "studies": [
+    {
+      "study_id": "STUDY001",
+      "study_name": "Oncology Trial"
+    },
+    {
+      "study_id": "STUDY002",
+      "study_name": "Immunology Trial"
+    },
+    {
+      "study_id": "STUDY003",
+      "study_name": "Rare Disease Trial"
+    }
+  ],
+  "depots": [
+    {
+      "depot_id": "DEPOT001",
+      "depot_name": "Mumbai Depot",
+      "country_code": "IN"
+    },
+    {
+      "depot_id": "DEPOT002",
+      "depot_name": "Singapore Depot",
+      "country_code": "SG"
+    },
+    {
+      "depot_id": "DEPOT003",
+      "depot_name": "Frankfurt Depot",
+      "country_code": "DE"
+    }
+  ],
+  "sites": [
+    {
+      "site_id": "SITE001",
+      "site_name": "Mumbai Oncology Site",
+      "study_id": "STUDY001",
+      "country_code": "IN",
+      "region": "APAC",
+      "site_status": "ACTIVE",
+      "activation_date": "2025-01-01",
+      "site_manager": "Thomas Weber",
+      "last_updated_timestamp": "2026-09-29T09:00:00"
+    },
+    {
+      "site_id": "SITE002",
+      "site_name": "Delhi Clinical Center",
+      "study_id": "STUDY001",
+      "country_code": "IN",
+      "region": "APAC",
+      "site_status": "ACTIVE",
+      "activation_date": "2025-01-01",
+      "site_manager": "Thomas Weber",
+      "last_updated_timestamp": "2026-09-29T09:00:00"
+    },
+    {
+      "site_id": "SITE003",
+      "site_name": "Singapore Research Hub",
+      "study_id": "STUDY002",
+      "country_code": "SG",
+      "region": "APAC",
+      "site_status": "ACTIVE",
+      "activation_date": "2025-01-01",
+      "site_manager": "Anita Rao",
+      "last_updated_timestamp": "2026-09-30T09:00:00"
+    },
+    {
+      "site_id": "SITE004",
+      "site_name": "Frankfurt Trial Center",
+      "study_id": "STUDY003",
+      "country_code": "DE",
+      "region": "EMEA",
+      "site_status": "ACTIVE",
+      "activation_date": "2025-01-01",
+      "site_manager": "Vikas Gupta",
+      "last_updated_timestamp": "2026-09-29T09:00:00"
+    },
+    {
+      "site_id": "SITE005",
+      "site_name": "Boston Medical Site",
+      "study_id": "STUDY003",
+      "country_code": "US",
+      "region": "NA",
+      "site_status": "ACTIVE",
+      "activation_date": "2025-01-01",
+      "site_manager": "Priya Mehta",
+      "last_updated_timestamp": "2026-09-29T09:00:00"
+    }
+  ],
+  "patients": [
+    {
+      "patient_id": "PAT000001",
+      "study_id": "STUDY002",
+      "site_id": "SITE003",
+      "country_code": "SG",
+      "randomization_date": "2026-09-29",
+      "study_arm": "ARM_A",
+      "patient_status": "ACTIVE"
+    },
+    {
+      "patient_id": "PAT000002",
+      "study_id": "STUDY002",
+      "site_id": "SITE003",
+      "country_code": "SG",
+      "randomization_date": "2026-09-29",
+      "study_arm": "ARM_C",
+      "patient_status": "COMPLETED"
+    },
+    {
+      "patient_id": "PAT000003",
+      "study_id": "STUDY003",
+      "site_id": "SITE004",
+      "country_code": "DE",
+      "randomization_date": "2026-09-29",
+      "study_arm": "ARM_B",
+      "patient_status": "ACTIVE"
+    },
+    {
+      "patient_id": "PAT000004",
+      "study_id": "STUDY001",
+      "site_id": "SITE001",
+      "country_code": "IN",
+      "randomization_date": "2026-09-29",
+      "study_arm": "ARM_A",
+      "patient_status": "ACTIVE"
+    },
+    {
+      "patient_id": "PAT000005",
+      "study_id": "STUDY003",
+      "site_id": "SITE005",
+      "country_code": "US",
+      "randomization_date": "2026-09-30",
+      "study_arm": "ARM_C",
+      "patient_status": "ACTIVE"
+    },
+    {
+      "patient_id": "PAT000006",
+      "study_id": "STUDY001",
+      "site_id": "SITE001",
+      "country_code": "IN",
+      "randomization_date": "2026-09-30",
+      "study_arm": "ARM_A",
+      "patient_status": "ACTIVE"
+    },
+    {
+      "patient_id": "PAT000007",
+      "study_id": "STUDY003",
+      "site_id": "SITE005",
+      "country_code": "US",
+      "randomization_date": "2026-10-01",
+      "study_arm": "ARM_B",
+      "patient_status": "ACTIVE"
+    },
+    {
+      "patient_id": "PAT000008",
+      "study_id": "STUDY003",
+      "site_id": "SITE005",
+      "country_code": "US",
+      "randomization_date": "2026-10-01",
+      "study_arm": "ARM_C",
+      "patient_status": "ACTIVE"
+    },
+    {
+      "patient_id": "PAT000009",
+      "study_id": "STUDY003",
+      "site_id": "SITE005",
+      "country_code": "US",
+      "randomization_date": "2026-10-02",
+      "study_arm": "ARM_C",
+      "patient_status": "ACTIVE"
+    },
+    {
+      "patient_id": "PAT000010",
+      "study_id": "STUDY003",
+      "site_id": "SITE004",
+      "country_code": "DE",
+      "randomization_date": "2026-10-02",
+      "study_arm": "ARM_C",
+      "patient_status": "ACTIVE"
+    }
+  ],
+  "shipments": [
+    {
+      "shipment_id": "SHIP00001",
+      "shipment_event_timestamp": "2026-09-30T10:00:00",
+      "shipment_date": "2026-09-29",
+      "source_depot_id": "DEPOT003",
+      "destination_site_id": "SITE001",
+      "study_id": "STUDY001",
+      "drug_type": "DRUG_B",
+      "qty_shipped": 167,
+      "shipment_status": "DISPATCHED",
+      "expected_delivery_date": "2026-10-06",
+      "actual_delivery_date": null
+    },
+    {
+      "shipment_id": "SHIP00002",
+      "shipment_event_timestamp": "2026-10-01T10:00:00",
+      "shipment_date": "2026-09-30",
+      "source_depot_id": "DEPOT001",
+      "destination_site_id": "SITE003",
+      "study_id": "STUDY002",
+      "drug_type": "DRUG_C",
+      "qty_shipped": 78,
+      "shipment_status": "DISPATCHED",
+      "expected_delivery_date": "2026-10-03",
+      "actual_delivery_date": null
+    },
+    {
+      "shipment_id": "SHIP00003",
+      "shipment_event_timestamp": "2026-10-02T10:00:00",
+      "shipment_date": "2026-09-30",
+      "source_depot_id": "DEPOT001",
+      "destination_site_id": "SITE001",
+      "study_id": "STUDY001",
+      "drug_type": "DRUG_C",
+      "qty_shipped": 99,
+      "shipment_status": "DISPATCHED",
+      "expected_delivery_date": "2026-10-06",
+      "actual_delivery_date": null
+    },
+    {
+      "shipment_id": "SHIP00004",
+      "shipment_event_timestamp": "2026-10-02T10:00:00",
+      "shipment_date": "2026-10-01",
+      "source_depot_id": "DEPOT003",
+      "destination_site_id": "SITE004",
+      "study_id": "STUDY003",
+      "drug_type": "DRUG_B",
+      "qty_shipped": 68,
+      "shipment_status": "DISPATCHED",
+      "expected_delivery_date": "2026-10-04",
+      "actual_delivery_date": null
+    },
+    {
+      "shipment_id": "SHIP00005",
+      "shipment_event_timestamp": "2026-10-02T10:00:00",
+      "shipment_date": "2026-10-02",
+      "source_depot_id": "DEPOT001",
+      "destination_site_id": "SITE002",
+      "study_id": "STUDY001",
+      "drug_type": "DRUG_C",
+      "qty_shipped": 94,
+      "shipment_status": "CREATED",
+      "expected_delivery_date": "2026-10-04",
+      "actual_delivery_date": null
+    },
+    {
+      "shipment_id": "SHIP00006",
+      "shipment_event_timestamp": "2026-10-02T10:00:00",
+      "shipment_date": "2026-10-02",
+      "source_depot_id": "DEPOT001",
+      "destination_site_id": "SITE001",
+      "study_id": "STUDY001",
+      "drug_type": "DRUG_C",
+      "qty_shipped": 179,
+      "shipment_status": "CREATED",
+      "expected_delivery_date": "2026-10-05",
+      "actual_delivery_date": null
+    }
+  ],
+  "inventory": {
+    "SITE001_DRUG_A": {
+      "qty_on_hand": 54
+    },
+    "SITE001_DRUG_B": {
+      "qty_on_hand": 34
+    },
+    "SITE001_DRUG_C": {
+      "qty_on_hand": 75
+    },
+    "SITE002_DRUG_A": {
+      "qty_on_hand": 76
+    },
+    "SITE002_DRUG_B": {
+      "qty_on_hand": 72
+    },
+    "SITE002_DRUG_C": {
+      "qty_on_hand": 53
+    },
+    "SITE003_DRUG_A": {
+      "qty_on_hand": 67
+    },
+    "SITE003_DRUG_B": {
+      "qty_on_hand": 73
+    },
+    "SITE003_DRUG_C": {
+      "qty_on_hand": 50
+    },
+    "SITE004_DRUG_A": {
+      "qty_on_hand": 77
+    },
+    "SITE004_DRUG_B": {
+      "qty_on_hand": 89
+    },
+    "SITE004_DRUG_C": {
+      "qty_on_hand": 78
+    },
+    "SITE005_DRUG_A": {
+      "qty_on_hand": 64
+    },
+    "SITE005_DRUG_B": {
+      "qty_on_hand": 53
+    },
+    "SITE005_DRUG_C": {
+      "qty_on_hand": 98
+    }
+  },
+  "counters": {
+    "site": 5,
+    "patient": 10,
+    "shipment": 6,
+    "dispense": 15
+  }
+}

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<dispensing_records><dispense><dispense_id>DSP000001</dispense_id><patient_id>PAT000004</patient_id><study_id>STUDY001</study_id><site_id>SITE001</site_id><drug_type>DRUG_B</drug_type><kit_id>KIT000001</kit_id><visit_number>2</visit_number><dispense_date>2026-09-29</dispense_date><quantity_dispensed>15</quantity_dispensed></dispense></dispensing_records>

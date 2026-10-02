@@ -1,0 +1,4 @@
+depot_id,depot_name,country_code,region
+DEPOT001,Mumbai Depot,IN,APAC
+DEPOT002,Singapore Depot,SG,APAC
+DEPOT003,Frankfurt Depot,DE,EMEA

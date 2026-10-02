@@ -1,0 +1,4 @@
+drug_type,drug_name,shelf_life_days,reorder_threshold,unit_of_measure
+DRUG_A,Oncology Drug A,365,50,KITS
+DRUG_B,Oncology Drug B,180,40,KITS
+DRUG_C,Oncology Drug C,270,60,KITS

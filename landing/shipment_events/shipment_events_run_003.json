@@ -1,0 +1,28 @@
+[
+  {
+    "shipment_id": "SHIP00002",
+    "shipment_event_timestamp": "2026-10-01T10:00:00",
+    "shipment_date": "2026-09-30",
+    "source_depot_id": "DEPOT001",
+    "destination_site_id": "SITE003",
+    "study_id": "STUDY002",
+    "drug_type": "DRUG_C",
+    "qty_shipped": 78,
+    "shipment_status": "DISPATCHED",
+    "expected_delivery_date": "2026-10-03",
+    "actual_delivery_date": null
+  },
+  {
+    "shipment_id": "SHIP00004",
+    "shipment_event_timestamp": "2026-10-01T10:00:00",
+    "shipment_date": "2026-10-01",
+    "source_depot_id": "DEPOT003",
+    "destination_site_id": "SITE004",
+    "study_id": "STUDY003",
+    "drug_type": "DRUG_B",
+    "qty_shipped": 68,
+    "shipment_status": "CREATED",
+    "expected_delivery_date": "2026-10-04",
+    "actual_delivery_date": null
+  }
+]

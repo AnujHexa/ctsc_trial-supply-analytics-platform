@@ -1,0 +1,6 @@
+site_id,site_name,study_id,country_code,region,site_status,activation_date,site_manager,last_updated_timestamp
+SITE001,Mumbai Oncology Site,STUDY001,IN,APAC,ACTIVE,2025-01-01,Thomas Weber,2026-09-29T09:00:00
+SITE002,Delhi Clinical Center,STUDY001,IN,APAC,ACTIVE,2025-01-01,Thomas Weber,2026-09-29T09:00:00
+SITE003,Singapore Research Hub,STUDY002,SG,APAC,ACTIVE,2025-01-01,Neha Singh,2026-09-29T09:00:00
+SITE004,Frankfurt Trial Center,STUDY003,DE,EMEA,ACTIVE,2025-01-01,Vikas Gupta,2026-09-29T09:00:00
+SITE005,Boston Medical Site,STUDY003,US,NA,ACTIVE,2025-01-01,Priya Mehta,2026-09-29T09:00:00
